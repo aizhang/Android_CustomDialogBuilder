@@ -1,0 +1,105 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="White">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WhiteShadow" parent="White">
+        <item name="android:shadowColor">#59000000</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="White_3" parent="WhiteShadow">
+        <item name="android:textSize">13dip</item>
+    </style>
+
+    <style name="White_4" parent="White">
+        <item name="android:textSize">13dip</item>
+    </style>
+
+    <style name="Blue">
+        <item name="android:textColor">#2d7ddc</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BlueShadow" parent="White">
+        <item name="android:shadowColor">#59000000</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="Blue_1" parent="BlueShadow">
+        <item name="android:textSize">11dip</item>
+    </style>
+
+    <style name="Blue_2" parent="Blue">
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="Black">
+        <item name="android:textColor">#555555</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BlackShadow" parent="Black">
+        <item name="android:shadowColor">#c0000000</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="Black_1" parent="Black">
+        <item name="android:textSize">13dip</item>
+    </style>
+
+    <style name="dialog_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/dialog_margin_vertical</item>
+        <item name="android:paddingLeft">@dimen/dialog_margin_horizontal</item>
+        <item name="android:paddingRight">@dimen/dialog_margin_horizontal</item>
+        <item name="android:paddingTop">@dimen/dialog_margin_vertical</item>
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textSize">36dp</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="dialog_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+</resources>

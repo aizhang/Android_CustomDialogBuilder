@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"  >
+
+    <Button
+        android:id="@+id/dialog_general_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_general_message" />
+
+    <Button
+        android:id="@+id/dialog_without_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_without_title" />
+
+    <Button
+        android:id="@+id/dialog_custom_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_custom_content" />
+
+    <Button
+        android:id="@+id/dialog_listview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_listview_content" />
+
+    <Button
+        android:id="@+id/dialog_one_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_one_btn" />
+
+    <Button
+        android:id="@+id/dialog_custom_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_custom_btn" />
+
+    <Button
+        android:id="@+id/dialog_no_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dialog_no_btn" />
+
+</LinearLayout>

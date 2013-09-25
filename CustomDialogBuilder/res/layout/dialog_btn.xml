@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dialog_button_height"
+    android:layout_margin="0dp"
+    android:background="@drawable/selector_dialog_btn"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/dialog_base_btn"
+        style="@style/Black_1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialog_button_height"
+        android:layout_margin="0dp"
+        android:gravity="center" android:textSize="@dimen/dialog_botton_text_size"
+        android:textColor="@drawable/selector_text_black_blue" />
+
+</LinearLayout>

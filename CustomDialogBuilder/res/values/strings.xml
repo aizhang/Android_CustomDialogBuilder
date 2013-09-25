@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Custom Dialog Builder</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_dialog_general_message">General Message Dialog</string>
+    <string name="show_dialog_without_title">Dialog Without Title</string>
+    <string name="show_dialog_one_btn">Dialog With One Button</string>
+    <string name="show_dialog_no_btn">Dialog Without Button</string>
+    <string name="show_dialog_custom_btn">Dialog With Custom Buttons</string>
+    <string name="show_dialog_custom_content">Dialog With Custom Content</string>
+    <string name="show_dialog_listview_content">Dialog With ListView Content</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+
+</resources>

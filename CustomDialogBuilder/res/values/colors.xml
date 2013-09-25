@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+	<color name="color_ace_blue">#2d7ddc</color>
+	<color name="color_ace_blue_with_half_alpha">#802d7ddc</color>
+    
+    <color name="window_background">#FF191919</color>
+    <color name="grid_dark_background">#EB191919</color>
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="snag_callout_color">#F444</color>
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+
+    <!-- Colors used in Preference @Author: ZouYong -->
+    <color name="pref_background">#f4f4f4</color>
+    
+    <color name="white_1">#dddddd</color>
+    <color name="white_2">#ffffff</color>
+    <color name="white_3">#ffffff</color>
+    <color name="white_4">#ffffff</color>
+    <color name="white_5">#ffffff</color>
+    <color name="white_6">#ffffff</color>
+    <color name="white_7">#ffffff</color>
+    <color name="white_8">#ffffff</color>
+    <color name="white_9">#ffffff</color>
+    <color name="white_10">#ffffff</color>
+    <color name="white_11">#ffffff</color>
+    <color name="white_12">#ffffff</color>
+    <color name="blue_1">#2d7ddc</color>
+    <color name="blue_2">#2d7ddc</color>
+    <color name="blue_3">#2d7ddc</color>
+    <color name="blue_4">#2d7ddc</color>
+    <color name="red_1">#ef8a8a</color>
+    <color name="black_1">#555555</color>
+    <color name="black_2">#555555</color>
+    <color name="black_3">#555555</color>
+    <color name="black_4">#555555</color>
+    <color name="black_5">#555555</color>
+    <color name="black_6">#262626</color>
+    <color name="black_7">#262626</color>
+    <color name="black_8">#262626</color>
+    <color name="black_9">#3f3f3f</color>
+    <color name="black_10">#3f3f3f</color>
+    <color name="gray_1">#aaaaaa</color>
+    <color name="gray_2">#aaaaaa</color>
+    <color name="gray_3">#6a6a6a</color>
+    <color name="gray_4">#aaaaaa</color>
+    <color name="gray_5">#999999</color>
+    <color name="gray_6">#a0a0a0</color>
+    <color name="gray_7">#a0a0a0</color>
+
+    <color name="text_color_user_guide">#ffffff</color>
+    
+    <color name="introduction_guide_text_color">#979797</color>
+</resources>
