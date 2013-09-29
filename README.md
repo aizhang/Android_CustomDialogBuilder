@@ -1,9 +1,12 @@
 Android_CustomDialogBuilder
 ===========================
 Android_CustomDialogBuilder is a open-source project for custom android dialog.
+
 You could use Android_CustomDialogBuilder to custom dialogs more effectively.
+
 Usage:
-   DialogBuilder customBuilder = new DialogBuilder(this) {
+
+       DialogBuilder customBuilder = new DialogBuilder(this) {
 
 				@Override
 				public Dialog build() {
