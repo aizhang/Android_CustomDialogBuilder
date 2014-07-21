@@ -8,7 +8,7 @@ import android.content.Context;
  * Dialog with Activity Life Cycle.
  * This dialog will 
  * 
- * @author Isaiah Cheung
+ * @author leo
  * 
  */
 public class DialogWithActivityLifeCycle extends Dialog {

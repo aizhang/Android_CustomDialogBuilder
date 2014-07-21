@@ -22,14 +22,14 @@ import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-import com.doodle.dialog.R;
+import com.ai.dialog.R;
 
 /**
  * The dialog helper, contains a dialog builder. This helper support set title,
  * customized content view, and multi button. Always use the dialog helper for
  * all dialog.
  * 
- * @author Isaiah Cheung
+ * @author leo
  * */
 public class BaseDialog extends Dialog {
 

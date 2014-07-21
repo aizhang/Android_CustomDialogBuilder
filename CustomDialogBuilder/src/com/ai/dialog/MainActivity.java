@@ -6,16 +6,17 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.ai.dialog.builder.DialogBuilder;
 import com.ai.dialog.builder.widget.MsgDialogBuilder;
-import com.doodle.dialog.R;
 
 /**
  * A sample for the custom dialog builder.
  * 
- * @author Isaiah Cheung
+ * @author leo
  * 
  */
 public class MainActivity extends Activity implements OnClickListener {
@@ -74,8 +75,11 @@ public class MainActivity extends Activity implements OnClickListener {
 				@Override
 				public Dialog build() {
 					mBuilder.setTitle(R.string.app_name);
-					mBuilder.setContentView(mInflater.inflate(
-							R.layout.custom_content, null));
+					View contentView = mInflater.inflate(
+                        R.layout.custom_content, null);
+					final EditText editText = (EditText) contentView.findViewById(R.id.edittext);
+					mBuilder.setContentView(contentView);
+					
 					mBuilder.addButton(getString(R.string.dialog_btn_cancel),
 							new OnClickListener() {
 
@@ -89,7 +93,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
 								@Override
 								public void onClick(View v) {
-									dialog.dismiss();
+								  Toast.makeText(MainActivity.this, editText.getText(), Toast.LENGTH_SHORT).show();
+								    
+								  dialog.dismiss();
 								}
 							});
 					return mBuilder.create();

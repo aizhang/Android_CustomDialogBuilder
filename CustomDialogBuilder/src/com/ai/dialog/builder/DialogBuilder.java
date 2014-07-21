@@ -8,12 +8,12 @@ import android.view.ViewGroup;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.doodle.dialog.R;
+import com.ai.dialog.R;
 
 /**
  * The Base Dialog Builder.
  * 
- * @author Isaiah Cheung
+ * @author leo
  * 
  */
 public abstract class DialogBuilder {

@@ -6,14 +6,14 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+import com.ai.dialog.R;
 import com.ai.dialog.builder.DialogBuilder;
-import com.doodle.dialog.R;
 
 /**
  * A reference implementation of DialogBuilder. Further more, just extends the
  * DialogBuilder and give your own implementation.
  * 
- * @author Isaiah Cheung
+ * @author leo
  * 
  */
 public class MsgDialogBuilder extends DialogBuilder {
